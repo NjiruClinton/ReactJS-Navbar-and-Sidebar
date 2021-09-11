@@ -1,0 +1,42 @@
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+}
+.Content p{
+    font-size: 25px;
+}
+
+.Sidebar{
+    height: calc(100vh - 50px);
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 55px;
+}
+.Sidebar li{
+    font-size: 20px!important;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
+.Sidebar li:hover{
+    background-color: white;
+    color: black;
+}
+
+.sidebarIcons{
+    padding-right: 10px;
+    color: rgb(23, 218, 13);
+}
+
+
+.Content{
+    justify-content: center;
+}
+
+
+

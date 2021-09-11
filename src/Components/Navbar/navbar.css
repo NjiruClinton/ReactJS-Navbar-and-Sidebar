@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+            justify-content: center;
+            background-color: rgb(58, 58, 58);
+            color: white;
+            font-size: 20px;
+            list-style: none;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+}
+
+.navbar li{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
+.navbar li:hover{
+    background-color: white;
+    color: rgb(58, 58, 58);
+}
+
+.navbarIcon{
+    color: rgb(23, 218, 13);
+    padding-right: 10px;
+
+}
+
